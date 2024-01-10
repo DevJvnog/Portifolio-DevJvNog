@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 41, 82);
+    
+}
+
+.alert{
+    padding-left: 40%;
+    max-width: 200px;
+    max-height: 260px;
+}
+
+.Linkedin{
+    color: #FFFFFF;
+    font-size: 90px;
+    border: solid 1px;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+.projetos{
+    text-align: center;
+
+}
+
+.projetos a{
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.projetos a:hover{
+    background-color: rgb(14, 221, 66);
+    color: #FFFFFF;
+    text-decoration: none;
+   
+}
+
+.site{
+    border: 2px solid;
+    max-width: 140px;
+    min-width: 140px;
+    max-height: 100px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.site:hover {
+    transform: scale(6);
+}
